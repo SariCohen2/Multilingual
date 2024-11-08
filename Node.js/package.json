@@ -1,0 +1,12 @@
+{
+  "name": "guess-game",
+  "version": "1.0.0",
+  "description": "A simple card guessing game",
+  "main": "program.js",
+  "scripts": {
+    "test": "node program.js"
+  },
+  "author": "SariCohen2",
+  "license": "ISC",
+  "type": "module"
+}
