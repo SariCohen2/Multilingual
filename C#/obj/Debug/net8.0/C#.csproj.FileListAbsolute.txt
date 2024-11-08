@@ -1,0 +1,14 @@
+D:\After\self_learning\Multilingual\C#\bin\Debug\net8.0\C#.exe
+D:\After\self_learning\Multilingual\C#\bin\Debug\net8.0\C#.deps.json
+D:\After\self_learning\Multilingual\C#\bin\Debug\net8.0\C#.runtimeconfig.json
+D:\After\self_learning\Multilingual\C#\bin\Debug\net8.0\C#.dll
+D:\After\self_learning\Multilingual\C#\bin\Debug\net8.0\C#.pdb
+D:\After\self_learning\Multilingual\C#\obj\Debug\net8.0\C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\After\self_learning\Multilingual\C#\obj\Debug\net8.0\C#.AssemblyInfoInputs.cache
+D:\After\self_learning\Multilingual\C#\obj\Debug\net8.0\C#.AssemblyInfo.cs
+D:\After\self_learning\Multilingual\C#\obj\Debug\net8.0\C#.csproj.CoreCompileInputs.cache
+D:\After\self_learning\Multilingual\C#\obj\Debug\net8.0\C#.dll
+D:\After\self_learning\Multilingual\C#\obj\Debug\net8.0\refint\C#.dll
+D:\After\self_learning\Multilingual\C#\obj\Debug\net8.0\C#.pdb
+D:\After\self_learning\Multilingual\C#\obj\Debug\net8.0\C#.genruntimeconfig.cache
+D:\After\self_learning\Multilingual\C#\obj\Debug\net8.0\ref\C#.dll
