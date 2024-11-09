@@ -1,0 +1,44 @@
+# Ignore NetBeans project files
+nbproject/
+
+# Ignore build output directories
+/build/
+/dist/
+
+# Ignore user-specific NetBeans configuration files
+/.netbeans/
+
+# Ignore compiled class files
+*.class
+
+# Ignore compiled JARs
+*.jar
+
+# Ignore logs
+*.log
+
+# Ignore temporary files created by editors
+*.swp
+*~
+
+# Ignore NetBeans specific IDE files
+*.iml
+.idea/
+
+# Ignore Maven specific files (if using Maven)
+target/
+*.log
+
+# Ignore gradle specific files (if using Gradle)
+.gradle/
+build/
+
+# Ignore Eclipse IDE files (if switching between IDEs)
+.settings/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files containing sensitive data (optional, add if applicable)
+*.properties

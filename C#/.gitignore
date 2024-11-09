@@ -1,0 +1,80 @@
+# User-specific files
+.idea/
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer packages
+*.exe
+*.dll
+
+# User-specific files
+.vs/
+.vs2017/
+.vs2019/
+.vs2015/
+# User-specific files (Windows)
+.vscode/
+
+# Windows Installer
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer packages
+*.exe
+*.dll
+
+# Windows image files
+*.iso
+
+# Configuration files
+appsettings.json
+appsettings.*.json
+
+# Rider files
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Web project specific
+node_modules/
+bower_components/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ebugFinal/
+[Dd]Release/
+bin/
+obj/
+out/
+build/
+TestResults/
+
+# Uncomment if you have tasks that create project's log files
+#*.log
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer packages
+*.exe
+*.dll
+
+# Windows image files
+*.iso
+
+# Microsoft Azure Web App
+# The cloud service settings file should not be checked into source control.
+# Please check the file path is unique for your app and delete the old ones if using multiple ones.
+azuredeploy.json

@@ -1,0 +1,54 @@
+# Node.js dependencies
+/node_modules/
+
+# npm logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build output
+/dist/
+/build/
+
+# Temporary files
+*.swp
+*~
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Coverage directory for testing
+/coverage/
+
+# Package distribution directories
+/.vscode/
+
+# Next.js build output (if using Next.js)
+/.next/
+/out/
+
+# SASS or CSS Preprocessor files (if applicable)
+*.css.map
+
+# Firebase
+.firebaserc
+.firebase/
+
+# JetBrains IDEs (if using IntelliJ IDEA, WebStorm, etc.)
+.idea/
+
+# TypeScript (if using TypeScript)
+*.tsbuildinfo
