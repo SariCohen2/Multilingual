@@ -1,6 +1,58 @@
-# Multilingual Number Guessing Game 🎮
 
-This project showcases a **Number Guessing Game** implemented in multiple programming languages: **Java**, **C#**, **C++**, **Python**, and **Node.js**. The goal is to demonstrate how to make **HTTP requests** across different programming languages by using the public **Numbers API** (`http://numbersapi.com/random/trivia`) to fetch random trivia about numbers.
+[Read this in Hebrew](README_HE.md)
+# Multilingual Card Guessing Game 🎮
+
+## Overview
+
+The **Multilingual Cards Guessing Game** is a cross-platform project designed to demonstrate the implementation of a simple card guessing game across multiple programming languages. The project includes implementations in the following languages:
+
+- **Java**
+- **C#**
+- **C++**
+- **Python**
+- **Node.js**
+
+This project showcases the differences and similarities between these languages in terms of syntax, structure, and performance. It also integrates an API to handle the game's logic, making it easy to compare how each language handles external service communication.
+
+## Features
+
+- A **card guessing game** where the computer selects a random card and the user must guess it.
+- **API integration** for fetching random facts about numbers.
+- Game logic implemented in **five different languages**.
+- User-friendly prompts and instructions in each language's implementation.
+
+## Project Structure
+
+The project is structured as follows:
+
+```
+Multilingual/
+├── Java/
+│   ├── Program.java
+│   ├── Card.java
+│   ├── Deck.java
+│   └── Game.java
+├── C#/
+│   ├── Program.cs
+│   ├── Card.cs
+│   ├── Deck.cs
+│   └── Game.cs
+├── C++/
+│   ├── Program.cpp
+│   ├── Card.cpp
+│   ├── Deck.cpp
+│   └── Game.cpp
+├── Python/
+│   ├── program.py
+│   ├── card.py
+│   ├── deck.py
+│   └── game.py
+└── Node.js/
+    ├── program.js
+    ├── card.js
+    ├── deck.js
+    └── game.js
+```
 
 ## How to Run the Game
 
@@ -20,7 +72,7 @@ To run the Java version of the game:
 ### 2. **C#** 💻
 To run the C# version of the game:
 1. Ensure **.NET Core 3.1+** is installed.
-2. Navigate to the `CSharp` folder.
+2. Navigate to the `C#` folder.
 3. Build and run the program:
    ```bash
    dotnet run
@@ -32,7 +84,7 @@ To run the C++ version of the game:
 2. Navigate to the `C++` folder.
 3. Compile the code:
    ```bash
-   g++ -o C++ Program.cpp
+   g++ -o Program Program.cpp
    ```
 4. Run the program:
    ```bash
@@ -52,7 +104,7 @@ To run the Python version of the game:
 To run the Node.js version of the game:
 1. Ensure **Node.js** is installed.
 2. Navigate to the `Node.js` folder.
-3. Install dependencies:
+3. Install the dependencies:
    ```bash
    npm install
    ```
@@ -61,30 +113,31 @@ To run the Node.js version of the game:
    node program.js
    ```
 
-## Using the Numbers API
+## API Integration
 
-This game uses the **Numbers API** (`http://numbersapi.com/random/trivia`) to fetch random trivia about numbers. It makes **simple HTTP requests** to the API and uses the returned trivia to present to the user. The game does not implement a complex API but leverages this public API for random number facts.
+The game uses the **Numbers API** (`http://numbersapi.com/random/trivia`) for fetching random facts about numbers. This public API provides random trivia about numbers, such as "7 is a lucky number" or "4 is the number of seasons in a year." These facts are displayed during the game to enrich the user experience and provide interesting knowledge about numbers.
 
 ### API Endpoint:
-- **GET `/random/trivia`** – Returns random trivia about a number.
+- **GET `/random/trivia`** – Returns a random fact about a number.
 
-## Contributions in Additional Languages
+## **We Highly Encourage Contributions!** 🌍
 
-We **highly encourage** contributions in other languages! 🌍 This is a great way to expand the project and make it accessible to a global audience. When contributing, **please ensure consistency in variable and file naming** across languages. Try to maintain the same **naming conventions** in each language, so the code remains clear and easy to understand for all developers.
+We **strongly invite** you to **contribute** to this project by implementing the game in **additional programming languages** or improving existing implementations! Your contributions will help make this project accessible to an even larger audience worldwide.
 
-For example:
-- Use **consistent file and variable names** across languages (e.g., `numberGuessingGame` in JavaScript should be the same in Python and C++).
-- Stick to the **correct naming convention** for each language (e.g., **camelCase** in JavaScript, **PascalCase** in C#, etc.).
-
-This will help keep the project maintainable and scalable.
+When contributing, please:
+- Ensure **consistent naming conventions** for files and variables across different languages (e.g., `cardGuessingGame` in JavaScript should have the same name in Python and C++).
+- Follow language-specific **naming standards** (e.g., **camelCase** in JavaScript, **PascalCase** in C#).
+- Share your **ideas and suggestions** for improving the user experience and game functionality.
+By contributing, you’ll help enrich the project and make it a comprehensive tool for learning and comparing different programming languages🤝.
 
 ## Contact
 
-For any questions or additional information, feel free to reach out to us:
+For any questions or additional information, feel free to contact us:
 
 - **Email**: [saracohen.cp@gmail.com](mailto:saracohen.cp@gmail.com)
 - **GitHub**: [https://github.com/SariCohen2](https://github.com/SariCohen2)
 
 ---
 
-Thank you for checking out the **Multilingual Number Guessing Game** project! We hope you enjoy trying out the different implementations in various languages and contributing your own improvements! 🎉
+Thank you for checking out the **Multilingual Number Guessing Game**! We hope you enjoy trying out the different versions and contributing your improvements! 🎉
+
